@@ -45,10 +45,10 @@ nav {
   font-size: 24px;
   font-weight: var(--menu-text-weight);
 }
-.logo-mobile {
+.img-mobile {
   display: block;
 }
-.logo-desktop {
+.img-desktop {
   display: none;
 }
 
