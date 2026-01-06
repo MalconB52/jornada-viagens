@@ -13,6 +13,8 @@
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header p {
@@ -27,7 +29,7 @@
 }
 
 .card header span {
-  font-size: 42px;
+  font-size: 32px;
   margin-top: 24px;
   display: inline-block;
 }
