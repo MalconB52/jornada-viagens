@@ -39,4 +39,27 @@ button {
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  margin: 0%;
+  font-size: 28px;
+  font-weight: var(--tittle-weight);
+  color: var(--text-primary-color);
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+@media (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
