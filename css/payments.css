@@ -46,11 +46,14 @@
 @media screen and (min-width: 1440px) {
   .payments .content-container .text-content {
     width: 360px;
+    margin: 0;
   }
 
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
+
   .payments .content-container {
     display: flex;
     justify-content: space-between;

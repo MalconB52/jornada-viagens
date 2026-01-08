@@ -45,7 +45,7 @@ body {
 .content-title {
   font-size: 28px;
   font-weight: var(--tittle-weight);
-  margin: 24px 0 24px;
+  margin: 0 0 24px;
   text-align: left;
 }
 .content-text {
