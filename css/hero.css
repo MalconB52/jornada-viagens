@@ -23,6 +23,40 @@
   line-height: 1.5;
 }
 
+/*Pacote Viagens*/
+
+.travel-packages.hero {
+  margin-bottom: 88px;
+}
+
+.travel-packages .hero-img {
+  height: 460px;
+  background: url("../img/pacote-hero-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.travel-packages .hero-content {
+  padding: 65px 24px;
+}
+
+.travel-packages .hero-content h1 {
+  font-size: 48px;
+  color: #ffff;
+}
+
+.travel-packages .hero-content p {
+  color: #ffff;
+}
+
+.travel-packages .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
