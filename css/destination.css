@@ -16,7 +16,7 @@
 }
 
 .destinations .item .img-item {
-  height: 368px;
+  height: 400px;
   width: 100%;
 }
 
@@ -32,6 +32,35 @@
   width: 100%;
 }
 
+/* Pacotes de viagem*/
+
+.popular-destinations .destination-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.popular-destinations .destination-items .item.tokyo .img-item {
+  background-image: url("../img/tokyo-mobile.jpg");
+  background-size: cover;
+}
+
+.popular-destinations .destination-items .item.osaka .img-item {
+  background-image: url("../img/osaka-mobile.jpg");
+  background-size: cover;
+}
+
+.popular-destinations .destination-items .img-item {
+  height: 400px;
+  width: 100%;
+}
+
+.popular-destinations .destination-items .button {
+  width: 100%;
+  margin: 24px 0;
+}
+
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
@@ -44,24 +73,48 @@
 
   .destinations .item.osaka .img-item {
     background-image: url("../img/osaka-tablet-desk.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
   }
 
   .destinations .item .img-item {
     width: 100%;
     height: 452px;
   }
-}
-.destinations .button {
-  width: 280px;
-}
+  .destinations .button {
+    width: 280px;
+  }
 
+  /*Pacotes de Viagens*/
+  .popular-destinations .destination-items .item.tokyo .img-item {
+    background-image: url("../img/tokyo-tablet-desk.jpg");
+    background-size: cover;
+  }
+
+  .popular-destinations .destination-items .item.osaka .img-item {
+    background-image: url("../img/osaka-tablet-desk.jpg");
+    background-size: cover;
+  }
+
+  .popular-destinations {
+    width: 648px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .destinations {
     width: 900px;
   }
 
   .destinations .item .img-item {
+    width: 100%;
+    height: 452px;
+  }
+
+  /*Pacotes de Viagens*/
+  .popular-destinations {
+    width: 900px;
+  }
+
+  .popular-destinations .item .img-item {
     width: 100%;
     height: 452px;
   }
@@ -72,6 +125,14 @@
     width: 1200px;
   }
   .destination-items {
+    flex-direction: row;
+  }
+
+  /*Pacotes de Viagens*/
+  .popular-destinations {
+    width: 1200px;
+  }
+  .popular-destinations .destination-items {
     flex-direction: row;
   }
 }
