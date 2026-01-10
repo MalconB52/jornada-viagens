@@ -43,12 +43,13 @@
 }
 @media screen and (min-width: 1024px) {
   .hero .hero-img {
+    height: 490px;
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
 
-    .bottom-hero .hero-img {
-    height: 400px;
+  .bottom-hero .hero-img {
+    height: 464px;
     background: url(../img/bg-bottom-hero-desk.png) no-repeat;
     background-size: cover;
   }
