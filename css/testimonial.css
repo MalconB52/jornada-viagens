@@ -4,6 +4,11 @@
   gap: 32px;
 }
 
+.testimonial-container p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
 .testimonial-container footer {
   display: flex;
   flex-direction: row;
@@ -30,8 +35,49 @@
   line-height: 32px;
 }
 
+/* Pacotes de Viagens */
+.travel-packages.testimonials .testimonial-container footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.travel-packages.testimonials .testimonial-container footer img {
+  width: 86px;
+  height: 86px;
+}
+
+.travel-packages.testimonials
+  .testimonial-container
+  footer
+  .profile-content
+  h3 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--tittle-weight);
+  margin: 0 0 8px;
+}
+
+.travel-packages.testimonials
+  .testimonial-container
+  footer
+  .profile-content
+  .rating
+  .star {
+  font-size: 34px;
+  color: var(--secondary-color);
+  line-height: 32px;
+}
+
 @media screen and (min-width: 1440px) {
   .testimonial-container {
+    flex-direction: row;
+  }
+
+  /* Pacote de Viagens */
+  .travel-packages.testimonials .testimonial-container {
     flex-direction: row;
   }
 }
