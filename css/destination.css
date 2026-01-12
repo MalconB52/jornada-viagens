@@ -41,22 +41,22 @@
   gap: 24px;
 }
 
-.popular-destinations .destination-items .item.tokyo .img-item {
+.travel-packages.destinations .destination-items .item.tokyo .img-item {
   background-image: url("../img/tokyo-mobile.jpg");
   background-size: cover;
 }
 
-.popular-destinations .destination-items .item.osaka .img-item {
+.travel-packages.destinations .destination-items .item.osaka .img-item {
   background-image: url("../img/osaka-mobile.jpg");
   background-size: cover;
 }
 
-.popular-destinations .destination-items .img-item {
+.travel-packages.destinaitons .destination-items .img-item {
   height: 400px;
   width: 100%;
 }
 
-.popular-destinations .destination-items .button {
+.travel-packages.destinaitons .destination-items .button {
   width: 100%;
   margin: 24px 0;
 }
@@ -85,17 +85,17 @@
   }
 
   /*Pacotes de Viagens*/
-  .popular-destinations .destination-items .item.tokyo .img-item {
+  .travel-packages.destinaitons .destination-items .item.tokyo .img-item {
     background-image: url("../img/tokyo-tablet-desk.jpg");
     background-size: cover;
   }
 
-  .popular-destinations .destination-items .item.osaka .img-item {
+  .travel-packages.destinations .destination-items .item.osaka .img-item {
     background-image: url("../img/osaka-tablet-desk.jpg");
     background-size: cover;
   }
 
-  .popular-destinations {
+  .travel-packages.destinaitons {
     width: 648px;
   }
 }
@@ -110,11 +110,11 @@
   }
 
   /*Pacotes de Viagens*/
-  .popular-destinations {
+  .travel-packages.destinaitons {
     width: 900px;
   }
 
-  .popular-destinations .item .img-item {
+  .travel-packages.destinaitons .item .img-item {
     width: 100%;
     height: 452px;
   }
@@ -129,10 +129,10 @@
   }
 
   /*Pacotes de Viagens*/
-  .popular-destinations {
+  .travel-packages.destinaitons {
     width: 1200px;
   }
-  .popular-destinations .destination-items {
+  .travel-packages.destinaitons .destination-items {
     flex-direction: row;
   }
 }
