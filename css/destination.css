@@ -51,6 +51,33 @@
   margin: 24px 0;
 }
 
+/*Blogspot */
+
+.blogspot.tokyo .content-container p {
+  margin-bottom: 32px;
+}
+
+.blogspot.tokyo .text-content .content-text p {
+  margin-bottom: 32px;
+}
+
+.blogspot.tokyo .image-gallery .image.first {
+  width: 100%;
+  height: 460px;
+  margin-bottom: 32px;
+}
+ 
+.blogspot.tokyo .image-gallery .image.first {
+  background: url(../img/Tokyo.png) no-repeat;
+  background-size: cover;
+}
+
+.blogspot.tokyo article .image-gallery .image.first {
+  background: url(../img/tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 8px;
+}
+
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
@@ -79,6 +106,25 @@
   .travel-packages.destinaitons {
     width: 648px;
   }
+
+  /* Blogspot */
+  .blogspot.tokyo .content-container .text-content {
+    width: 278px;
+    margin: 0;
+  }
+
+  .blogspot.tokyo .content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+  .blogspot.tokyo .content-container .image-gallery {
+    background: url("../img/tokyo-tablet-desk.jpg") no-repeat;
+    background-size: cover;
+  }
 }
 @media screen and (min-width: 1024px) {
   .destinations {
@@ -93,6 +139,12 @@
   /*Pacotes de Viagens*/
   .travel-packages.destinaitons {
     width: 900px;
+  }
+
+  /*Blogspot */
+   .blogspot.tokyo .content-container .text-content {
+    width: 560px;
+    margin: 0;
   }
 }
 
@@ -110,5 +162,12 @@
   }
   .travel-packages.destinaitons .destination-items {
     flex-direction: row;
+  }
+
+  /*Blogspot*/
+  .blogspot.tokyo 
+  .blogspot.tokyo .content-container {
+    display: flex;
+    justify-content: space-between;
   }
 }
