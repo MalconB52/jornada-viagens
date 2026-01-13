@@ -62,6 +62,39 @@
   line-height: 32px;
 }
 
+/* Blogspot */
+.blogspot.hero {
+  margin-bottom: 88px;
+}
+
+.blogspot.hero .hero-content {
+  padding: 65px 24px;
+}
+
+.blogspot.hero .hero-img {
+  height: 460px;
+  background: url(../img/blogspot-bg-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.blogspot.hero .hero-content h1 {
+  font-size: 48px;
+  color: #ffff;
+}
+
+.blogspot.hero .hero-content p {
+  color: #ffff;
+}
+
+.blogspot.hero .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -95,6 +128,30 @@
 
   .travel-packages .hero-content {
     padding: 210px 70px 107px;
+  }
+
+  /* Blogspot */
+
+  .blogspot.hero .hero-img {
+    height: 620px;
+    background: url("../img/blogspot-bg-hero-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
+  .blogspot.hero .hero-content {
+    padding: 210px 70px 107px;
+  }
+
+  .blogspot.hero .hero-content p {
+    color: #ffff;
+    line-height: 150%;
+    font-size: 32px;
+  }
+
+  .blogspot.hero .hero-content h1 {
+    font-size: 48px;
+    color: #ffff;
+    line-height: 100%;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -136,6 +193,21 @@
   .travel-packages .hero-content p {
     width: 570px;
   }
+
+  /* Blogspot */
+
+  .blogspot.hero .hero-img {
+    height: 550px;
+    background: url("../img/blogspot-bg-hero-desk.png") no-repeat;
+    background-size: cover;
+  }
+  .blogspot.hero .hero-content {
+    padding: 158px 120px 170px;
+    margin: 0 auto;
+  }
+  .blogspot.hero .hero-content p {
+    width: 570px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -149,6 +221,12 @@
   }
   .travel-packages.bottom-hero .hero-img {
     height: 600px;
+  }
+
+  /* Blogspot */
+
+  .blogspot.hero .hero-content {
+    width: 1200px;
   }
 }
 
