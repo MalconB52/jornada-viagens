@@ -96,6 +96,7 @@ section.hero {
   text-decoration: none;
   line-height: 64px;
   text-align: center;
+  margin-bottom: 24px;
 }
 
 .section-title hr {
