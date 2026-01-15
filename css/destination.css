@@ -86,12 +86,12 @@
   margin-bottom: 8px;
 }
 
-.blogspot.destinations .item.hiroshima .img-item {
+.destinations .item.hiroshima .img-item {
   background: url(../img/blogspot-hiroshima-mobile.png) no-repeat;
   background-size: cover;
 }
 
-.blogspot.destinations .item.kyoto .img-item {
+.destinations .item.kyoto .img-item {
   background: url(../img/blogspot-kyoto-mobile.png) no-repeat;
   background-size: cover;
 }
