@@ -1,4 +1,3 @@
-markdown
 # 🌍 Jornada Viagens - Website Responsivo
 
 **Um website completo para uma agência de viagens, desenvolvido com foco em design responsivo durante a Formação Front-end da Alura.**
