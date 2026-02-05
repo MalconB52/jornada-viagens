@@ -2,7 +2,8 @@
 
 **Um website completo para uma agência de viagens, desenvolvido com foco em design responsivo durante a Formação Front-end da Alura.**
 
-![Captura de Tela do Site Jornada Viagens](https://imgur.com/SUbLQvT.png) <!-- 📌 SUBSTITUA pelo link real da sua screenshot! -->
+<img width="538" height="1151" alt="image" src="https://github.com/user-attachments/assets/e56f6717-ee4f-4f53-a1b6-368359c2295f" />
+
 
 ## 📋 Sobre o Projeto
 O **Jornada Viagens** é um website funcional para uma agência de viagens fictícia, criado como projeto prático do curso de **CSS Responsivo** da Alura. O principal objetivo foi dominar as técnicas de **responsividade** para criar uma experiência de usuário perfeita em todos os dispositivos, desde smartphones até desktops.
