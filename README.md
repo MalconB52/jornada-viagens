@@ -73,7 +73,7 @@ Método 1: Abra o arquivo index.html diretamente
 Método 2: Use uma extensão Live Server (VS Code)
 
 🌐 Deploy e Demonstração
-🔗 Site ao Vivo: https://jornada-viagens.vercel.app <!-- 📌 SUBSTITUA pelo seu link do Vercel! -->
+🔗 Site ao Vivo: https://jornada-viagens-seven.vercel.app/
 
 📂 Código Fonte: https://github.com/MalconB52/jornada-viagens
 
